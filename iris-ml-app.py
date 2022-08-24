@@ -27,7 +27,7 @@ st.subheader('User Input parameters')
 st.write(df)
 
 #iris = datasets.load_iris()
-url = 'https://github.com/feizhi98/Demo1/blob/main/IRIS.csv'
+url = 'https://raw.githubusercontent.com/feizhi98/Demo1/main/IRIS.csv'
 iris = pd.read_csv(url,index_col=0,parse_dates=[0])
 print (iris.head(5))
 X = iris.data
