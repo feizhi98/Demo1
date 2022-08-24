@@ -29,7 +29,7 @@ st.write(df)
 #iris = datasets.load_iris()
 iris = pd.read_csv('https://raw.githubusercontent.com/feizhi98/Demo1/main/IRIS.csv')
 st.write("hi:",iris.head())
-X = iris.data
+X = df 
 Y = iris.species
 
 clf = RandomForestClassifier()
