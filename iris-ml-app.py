@@ -28,7 +28,7 @@ st.write(df)
 
 #iris = datasets.load_iris()
 iris = pd.read_csv('https://raw.githubusercontent.com/feizhi98/Demo1/main/IRIS.csv')
-iris.head()
+print("hi:",iris.head())
 X = iris.data
 Y = iris.species
 
