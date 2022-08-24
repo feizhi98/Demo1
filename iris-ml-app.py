@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
 from sklearn.ensemble import RandomForestClassifier
+from streamlit_option_menu import option_menu
     
 st.write("""
 # Simple Iris Flower Prediction App
