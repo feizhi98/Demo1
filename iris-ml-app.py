@@ -25,11 +25,12 @@ df = user_input_features()
 
 st.subheader('User Input parameters')
 st.write(df)
+st.write('Y')
 
 iris = pd.read_csv('https://raw.githubusercontent.com/feizhi98/Demo1/main/IRIS.csv')
 X = iris.data
 Y = iris.species
-st.write('Y')
+
 
 clf = RandomForestClassifier()
 clf.fit(X, Y)
